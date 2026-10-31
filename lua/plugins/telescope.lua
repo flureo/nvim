@@ -2,6 +2,7 @@ return {
     'nvim-telescope/telescope.nvim', version = '*',
 	config = function ()
 		local builtin = require('telescope.builtin')
+		-- Add Shortcut for Fuzzy Finder
 		vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 	end,
     dependencies = {
