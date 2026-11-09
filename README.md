@@ -2,9 +2,12 @@
 
 Don't expect this repo to be maintained of a long time. This is a small project for me to store my neovim configs.
 
-### Dependencies
+### Installation
 ```bash
-sudo pacman -S tree-sitter-cli
+sudo pacman -S neovim git tree-sitter-cli
+cd ~/.config/
+rm -rf nvim/
+git clone https://github.com/flureo/nvim.git
 ```
 
 ### Plugins
