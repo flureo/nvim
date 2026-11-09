@@ -2,6 +2,11 @@
 
 Don't expect this repo to be maintained of a long time. This is a small project for me to store my neovim configs.
 
+### Dependencies
+```bash
+sudo pacman -S tree-sitter-cli
+```
+
 ### Plugins
 
 Here are all the plugins I used!
