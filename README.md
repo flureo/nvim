@@ -4,7 +4,7 @@ Don't expect this repo to be maintained of a long time. This is a small project 
 
 ### Installation
 ```bash
-sudo pacman -S neovim git tree-sitter-cli
+sudo pacman -Sy neovim git tree-sitter-cli
 cd ~/.config/
 rm -rf nvim/
 git clone https://github.com/flureo/nvim.git
